@@ -56,3 +56,15 @@ AI as an assistant, never as the source of truth.
 ## License
 
 MIT License. See `LICENSE`.
+
+## Project status
+
+**Current release:** 0.1 — Foundation  
+**Release status:** Completed  
+**Stable production version:** Not yet available
+
+Release 0.1 establishes repository structure, architecture decisions,
+draft Service contracts, developer documentation, schemas and initial
+architecture rules.
+
+See `RELEASE-0.1-NOTES.md` for the complete release summary.

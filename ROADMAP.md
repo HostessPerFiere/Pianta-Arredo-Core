@@ -61,3 +61,15 @@ Focus on compatibility, migration and compliance.
 ## Release 1.0 — Stable Platform
 
 Publish stable Spatial Intelligence contracts and a reference implementation.
+
+## Release 0.1 — Foundation
+
+Status: Completed
+
+Completed packages:
+
+- Package A — Repository Foundation
+- Package B — Core Documentation
+- Package C — Architecture Decisions
+- Package D — Service Specification
+- Package E — Developer Experience
