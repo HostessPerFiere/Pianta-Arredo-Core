@@ -140,3 +140,9 @@ Added:
 
 Status: Completed
 <!-- RELEASE-0-6-0-ROADMAP:END -->
+
+<!-- RELEASE-0-7-0-ROADMAP:START -->
+## Release 0.7.0 — Spatial Analysis Core
+
+Status: Completed
+<!-- RELEASE-0-7-0-ROADMAP:END -->

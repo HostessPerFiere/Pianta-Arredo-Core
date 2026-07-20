@@ -122,3 +122,9 @@ Experimental Project persistence completed.
 
 Status: Completed
 <!-- RELEASE-0-6-0-CHANGELOG:END -->
+
+<!-- RELEASE-0-7-0-CHANGELOG:START -->
+## [0.7.0] — Spatial Analysis Core
+
+Status: Completed
+<!-- RELEASE-0-7-0-CHANGELOG:END -->
