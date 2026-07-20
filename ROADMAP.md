@@ -87,3 +87,18 @@ Completed packages:
 - Package D — Compliance Foundation
 - Package E — Examples and Release Closure
 <!-- RELEASE-0.2-STATUS:END -->
+
+<!-- RELEASE-0.3-STATUS:START -->
+## Release 0.3 — Reference Architecture
+
+Status: Completed
+
+Added:
+
+- executable Python package structure;
+- public Service skeletons;
+- Ports and reference Adapters;
+- composition root;
+- unit and end-to-end tests;
+- executable architecture checks.
+<!-- RELEASE-0.3-STATUS:END -->

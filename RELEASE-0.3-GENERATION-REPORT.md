@@ -1,0 +1,49 @@
+# Release 0.3 Generation Report
+
+Mode: `apply`
+
+## Files created or to create
+
+- `implementation/python/pyproject.toml`
+- `implementation/python/src/spatial_intelligence/__init__.py`
+- `implementation/python/src/spatial_intelligence/domain/__init__.py`
+- `implementation/python/src/spatial_intelligence/domain/models.py`
+- `implementation/python/src/spatial_intelligence/contracts/__init__.py`
+- `implementation/python/src/spatial_intelligence/contracts/errors.py`
+- `implementation/python/src/spatial_intelligence/contracts/results.py`
+- `implementation/python/src/spatial_intelligence/ports/__init__.py`
+- `implementation/python/src/spatial_intelligence/ports/geometry.py`
+- `implementation/python/src/spatial_intelligence/ports/knowledge.py`
+- `implementation/python/src/spatial_intelligence/ports/export.py`
+- `implementation/python/src/spatial_intelligence/ports/event_bus.py`
+- `implementation/python/src/spatial_intelligence/services/__init__.py`
+- `implementation/python/src/spatial_intelligence/services/geometry_service.py`
+- `implementation/python/src/spatial_intelligence/services/knowledge_service.py`
+- `implementation/python/src/spatial_intelligence/services/validation_service.py`
+- `implementation/python/src/spatial_intelligence/services/export_service.py`
+- `implementation/python/src/spatial_intelligence/services/workflow_service.py`
+- `implementation/python/src/spatial_intelligence/adapters/__init__.py`
+- `implementation/python/src/spatial_intelligence/adapters/simple_geometry_kernel.py`
+- `implementation/python/src/spatial_intelligence/adapters/static_knowledge_adapter.py`
+- `implementation/python/src/spatial_intelligence/adapters/json_export_adapter.py`
+- `implementation/python/src/spatial_intelligence/adapters/in_memory_event_bus.py`
+- `implementation/python/src/spatial_intelligence/composition/__init__.py`
+- `implementation/python/src/spatial_intelligence/composition/root.py`
+- `implementation/python/tests/test_reference_workflow.py`
+- `implementation/python/tests/test_validation_service.py`
+- `implementation/python/tests/test_geometry_service.py`
+- `tests/architecture/python-reference-rules.md`
+- `implementation/python/tests/test_architecture_dependencies.py`
+- `examples/reference-architecture-python/README.md`
+- `RELEASE-0.3-NOTES.md`
+- `RELEASE-0.3-MANIFEST.md`
+
+## Files modified or to modify
+
+- `README.md`
+- `ROADMAP.md`
+- `CHANGELOG.md`
+
+## Existing files skipped
+
+- `implementation/python/README.md`

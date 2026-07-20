@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: spatial-intelligence-reference
+Version: 0.3.0
+Summary: Reference architecture for Pianta-Arredo-Core
+Requires-Python: >=3.11
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"

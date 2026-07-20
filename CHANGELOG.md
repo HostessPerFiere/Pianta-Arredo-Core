@@ -64,3 +64,21 @@ Draft specification completed.
 
 No production reference implementation is included.
 <!-- RELEASE-0.2-CHANGELOG:END -->
+
+<!-- RELEASE-0.3-CHANGELOG:START -->
+## [0.3.0-reference-architecture]
+
+### Added
+
+- first executable Python reference architecture;
+- domain model skeleton;
+- Service and Port implementations;
+- reference Adapters;
+- composition root;
+- unit, integration and architecture tests;
+- project configuration for pytest, Ruff and mypy.
+
+### Status
+
+Experimental reference architecture completed.
+<!-- RELEASE-0.3-CHANGELOG:END -->
