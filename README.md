@@ -92,3 +92,16 @@ Release 0.3 introduces the first executable Python architecture skeleton.
 
 See `RELEASE-0.3-NOTES.md`.
 <!-- RELEASE-0.3-STATUS:END -->
+
+<!-- RELEASE-0.4-STATUS:START -->
+## Geometry and validation status
+
+**Latest completed release:** 0.4 — Geometry and Validation Core  
+**Geometry maturity:** Experimental  
+**Production readiness:** Not production-ready
+
+Release 0.4 introduces executable 2D geometry primitives,
+deterministic validation rules and a Capability registry.
+
+See `RELEASE-0.4-NOTES.md`.
+<!-- RELEASE-0.4-STATUS:END -->

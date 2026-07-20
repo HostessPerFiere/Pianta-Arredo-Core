@@ -82,3 +82,20 @@ No production reference implementation is included.
 
 Experimental reference architecture completed.
 <!-- RELEASE-0.3-CHANGELOG:END -->
+
+<!-- RELEASE-0.4-CHANGELOG:START -->
+## [0.4.0-geometry-validation-core]
+
+### Added
+
+- Point2D, Segment2D and Polyline2D;
+- length, closure and polygon-area algorithms;
+- segment-intersection detection;
+- deterministic Wall, Opening and perimeter validation;
+- Capability registry;
+- geometry and validation test suites.
+
+### Status
+
+Experimental Geometry and Validation Core completed.
+<!-- RELEASE-0.4-CHANGELOG:END -->

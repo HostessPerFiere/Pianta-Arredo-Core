@@ -102,3 +102,19 @@ Added:
 - unit and end-to-end tests;
 - executable architecture checks.
 <!-- RELEASE-0.3-STATUS:END -->
+
+<!-- RELEASE-0.4-STATUS:START -->
+## Release 0.4 — Geometry and Validation Core
+
+Status: Completed
+
+Added:
+
+- executable 2D geometry primitives;
+- length and area algorithms;
+- perimeter closure validation;
+- segment-intersection validation;
+- Wall and Opening validation;
+- Capability registry;
+- expanded automated tests.
+<!-- RELEASE-0.4-STATUS:END -->
