@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/capability.schema.json",
+  "title": "Spatial Intelligence Capability",
+  "type": "object",
+  "required": [
+    "capabilityId",
+    "version",
+    "status",
+    "supportedInputs",
+    "supportedOutputs"
+  ],
+  "properties": {
+    "capabilityId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Experimental",
+        "Stable",
+        "Deprecated"
+      ]
+    },
+    "supportedInputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supportedOutputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limits": {
+      "type": "object"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "restrictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

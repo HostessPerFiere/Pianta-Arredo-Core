@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/project.schema.json",
+  "title": "Spatial Intelligence Project",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "projectId",
+    "name",
+    "state",
+    "unitSystem"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^0\\.1$"
+    },
+    "projectId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Measured",
+        "Normalized",
+        "Validated",
+        "GeometryGenerated",
+        "Analyzed",
+        "Exported",
+        "Published"
+      ]
+    },
+    "unitSystem": {
+      "type": "object",
+      "required": [
+        "length"
+      ],
+      "properties": {
+        "length": {
+          "type": "string",
+          "enum": [
+            "mm",
+            "cm",
+            "m"
+          ]
+        },
+        "angle": {
+          "type": "string",
+          "enum": [
+            "degrees",
+            "radians"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

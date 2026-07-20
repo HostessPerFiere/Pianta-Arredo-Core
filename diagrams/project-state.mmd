@@ -1,0 +1,13 @@
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Measured
+    Measured --> Normalized
+    Normalized --> Validated
+    Validated --> GeometryGenerated
+    GeometryGenerated --> Analyzed
+    Analyzed --> Exported
+    Exported --> Published
+
+    Published --> Draft: New revision
+    Exported --> Draft: Edit
+    Validated --> Draft: Invalidating change

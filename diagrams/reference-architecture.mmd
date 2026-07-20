@@ -1,0 +1,19 @@
+flowchart TD
+    A[Application] --> W[Workflow Service]
+
+    W --> K[Knowledge Service]
+    W --> G[Geometry Service]
+    W --> V[Validation Service]
+    W --> E[Export Service]
+
+    K --> KP[Knowledge Port]
+    G --> GP[Geometry Port]
+    V --> VP[Validation Dependencies]
+    E --> EP[Export Port]
+
+    GP --> GK[Geometry Kernel]
+    EP --> EA[Export Adapter]
+    KP --> KA[Knowledge Adapter]
+
+    W --> EB[Event Bus Port]
+    EB --> EBA[Event Bus Adapter]

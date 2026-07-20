@@ -1,0 +1,12 @@
+flowchart TD
+    U[User or External System] --> A[Application]
+    A --> W[Workflow Service]
+    W --> N[Input Normalisation]
+    N --> K[Knowledge Resolution]
+    K --> M[Spatial Intelligence Model]
+    M --> G[Geometry Generation]
+    G --> V[Validation]
+    V --> AN[Analysis]
+    AN --> E[Export Service]
+    E --> AD[Export Adapter]
+    AD --> O[Application Output]
