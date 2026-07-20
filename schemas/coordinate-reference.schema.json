@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/coordinate-reference.schema.json",
+  "title": "Spatial Intelligence Coordinate Reference",
+  "type": "object",
+  "required": [
+    "coordinateReferenceId",
+    "type",
+    "dimensions",
+    "axisOrder",
+    "unit"
+  ],
+  "properties": {
+    "coordinateReferenceId": {
+      "$ref": "identifier.schema.json"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "local-cartesian",
+        "projected",
+        "geographic",
+        "custom"
+      ]
+    },
+    "dimensions": {
+      "type": "integer",
+      "enum": [
+        2,
+        3
+      ]
+    },
+    "axisOrder": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "enum": [
+          "x",
+          "y",
+          "z",
+          "longitude",
+          "latitude",
+          "elevation"
+        ]
+      }
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "mm",
+        "cm",
+        "m",
+        "degrees"
+      ]
+    },
+    "origin": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "number"
+      }
+    },
+    "orientationDegrees": {
+      "type": "number"
+    },
+    "externalReference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

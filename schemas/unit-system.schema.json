@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/unit-system.schema.json",
+  "title": "Spatial Intelligence Unit System",
+  "type": "object",
+  "required": [
+    "length",
+    "angle"
+  ],
+  "properties": {
+    "length": {
+      "type": "string",
+      "enum": [
+        "mm",
+        "cm",
+        "m"
+      ]
+    },
+    "angle": {
+      "type": "string",
+      "enum": [
+        "degrees",
+        "radians"
+      ]
+    },
+    "area": {
+      "type": "string",
+      "enum": [
+        "mm2",
+        "cm2",
+        "m2"
+      ]
+    },
+    "volume": {
+      "type": "string",
+      "enum": [
+        "mm3",
+        "cm3",
+        "m3"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

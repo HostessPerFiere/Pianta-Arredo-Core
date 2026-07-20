@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/identifier.schema.json",
+  "title": "Spatial Intelligence Identifier",
+  "description": "Opaque, non-empty identifier used by SIS and SIM.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 255,
+  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+}
