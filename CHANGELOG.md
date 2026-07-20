@@ -116,3 +116,9 @@ Experimental Geometry and Validation Core completed.
 
 Experimental Project persistence completed.
 <!-- RELEASE-0.5-CHANGELOG:END -->
+
+<!-- RELEASE-0-6-0-CHANGELOG:START -->
+## [0.6.0] — Interoperability Core
+
+Status: Completed
+<!-- RELEASE-0-6-0-CHANGELOG:END -->

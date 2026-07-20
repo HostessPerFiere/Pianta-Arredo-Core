@@ -118,3 +118,13 @@ persistence.
 
 See `RELEASE-0.5-NOTES.md`.
 <!-- RELEASE-0.5-STATUS:END -->
+
+<!-- RELEASE-0-6-0-STATUS:START -->
+## Release 0.6.0 status
+
+**Release:** Interoperability Core  
+**Status:** Completed  
+**Package version:** `0.6.0`
+
+See `RELEASE-0.6-NOTES.md`.
+<!-- RELEASE-0-6-0-STATUS:END -->

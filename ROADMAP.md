@@ -134,3 +134,9 @@ Added:
 - revision conflict handling;
 - persistence tests.
 <!-- RELEASE-0.5-STATUS:END -->
+
+<!-- RELEASE-0-6-0-ROADMAP:START -->
+## Release 0.6.0 — Interoperability Core
+
+Status: Completed
+<!-- RELEASE-0-6-0-ROADMAP:END -->
