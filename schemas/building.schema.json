@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/building.schema.json",
+  "title": "SIM Building",
+  "type": "object",
+  "required": [
+    "buildingId",
+    "projectId",
+    "name",
+    "state"
+  ],
+  "properties": {
+    "buildingId": {
+      "$ref": "identifier.schema.json"
+    },
+    "projectId": {
+      "$ref": "identifier.schema.json"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Deleted"
+      ]
+    },
+    "address": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

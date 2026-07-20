@@ -73,3 +73,17 @@ Completed packages:
 - Package C — Architecture Decisions
 - Package D — Service Specification
 - Package E — Developer Experience
+
+<!-- RELEASE-0.2-STATUS:START -->
+## Release 0.2 — Core Specification
+
+Status: Completed
+
+Completed packages:
+
+- Package A — Specification Foundation
+- Package B — SIM Core Entities
+- Package C — Commands, Results and Errors
+- Package D — Compliance Foundation
+- Package E — Examples and Release Closure
+<!-- RELEASE-0.2-STATUS:END -->

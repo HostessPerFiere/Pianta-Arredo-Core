@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/command.schema.json",
+  "title": "Spatial Intelligence Command",
+  "type": "object",
+  "required": [
+    "commandId",
+    "commandType",
+    "commandVersion",
+    "projectId",
+    "correlationId",
+    "payload"
+  ],
+  "properties": {
+    "commandId": {
+      "$ref": "identifier.schema.json"
+    },
+    "commandType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "commandVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "projectId": {
+      "$ref": "identifier.schema.json"
+    },
+    "correlationId": {
+      "$ref": "identifier.schema.json"
+    },
+    "actor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expectedRevisionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

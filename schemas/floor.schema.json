@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/floor.schema.json",
+  "title": "SIM Floor",
+  "type": "object",
+  "required": [
+    "floorId",
+    "buildingId",
+    "name",
+    "state"
+  ],
+  "properties": {
+    "floorId": {
+      "$ref": "identifier.schema.json"
+    },
+    "buildingId": {
+      "$ref": "identifier.schema.json"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "elevation": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "height": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Deleted"
+      ]
+    },
+    "coordinateReferenceId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

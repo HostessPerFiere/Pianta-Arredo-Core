@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/wall.schema.json",
+  "title": "SIM Wall",
+  "type": "object",
+  "required": [
+    "wallId",
+    "floorId",
+    "start",
+    "end",
+    "thickness",
+    "unit",
+    "state"
+  ],
+  "properties": {
+    "wallId": {
+      "$ref": "identifier.schema.json"
+    },
+    "floorId": {
+      "$ref": "identifier.schema.json"
+    },
+    "start": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "number"
+      }
+    },
+    "end": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "number"
+      }
+    },
+    "thickness": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "height": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "mm",
+        "cm",
+        "m"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Deleted"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

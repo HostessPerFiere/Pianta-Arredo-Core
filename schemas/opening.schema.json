@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/opening.schema.json",
+  "title": "SIM Opening",
+  "type": "object",
+  "required": [
+    "openingId",
+    "openingType",
+    "hostId",
+    "offset",
+    "width",
+    "height",
+    "unit",
+    "state"
+  ],
+  "properties": {
+    "openingId": {
+      "$ref": "identifier.schema.json"
+    },
+    "openingType": {
+      "type": "string",
+      "enum": [
+        "Door",
+        "Window",
+        "Passage",
+        "Custom"
+      ]
+    },
+    "hostId": {
+      "$ref": "identifier.schema.json"
+    },
+    "offset": {
+      "type": "number",
+      "minimum": 0
+    },
+    "width": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "height": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "mm",
+        "cm",
+        "m"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Deleted"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

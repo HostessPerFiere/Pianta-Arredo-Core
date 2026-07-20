@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/space.schema.json",
+  "title": "SIM Space",
+  "type": "object",
+  "required": [
+    "spaceId",
+    "floorId",
+    "spaceType",
+    "state"
+  ],
+  "properties": {
+    "spaceId": {
+      "$ref": "identifier.schema.json"
+    },
+    "floorId": {
+      "$ref": "identifier.schema.json"
+    },
+    "spaceType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "boundaryGeometryId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Deleted"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

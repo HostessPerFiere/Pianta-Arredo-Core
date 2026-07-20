@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spatial-intelligence/result.schema.json",
+  "title": "Spatial Intelligence Result",
+  "type": "object",
+  "required": [
+    "operationId",
+    "success",
+    "errors",
+    "warnings"
+  ],
+  "properties": {
+    "operationId": {
+      "$ref": "identifier.schema.json"
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "data": {},
+    "errors": {
+      "type": "array",
+      "items": {
+        "$ref": "error.schema.json"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "$ref": "error.schema.json"
+      }
+    },
+    "eventIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

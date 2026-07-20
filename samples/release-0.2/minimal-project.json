@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.2-draft",
+  "projectId": "project_demo_001",
+  "name": "Minimal Apartment Example",
+  "state": "Normalized",
+  "unitSystem": {
+    "length": "mm",
+    "angle": "degrees",
+    "area": "m2",
+    "volume": "m3"
+  },
+  "coordinateReference": {
+    "coordinateReferenceId": "crs_local_001",
+    "type": "local-cartesian",
+    "dimensions": 2,
+    "axisOrder": [
+      "x",
+      "y"
+    ],
+    "unit": "mm",
+    "origin": [
+      0,
+      0
+    ],
+    "orientationDegrees": 0,
+    "externalReference": null
+  }
+}

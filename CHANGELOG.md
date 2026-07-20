@@ -43,3 +43,24 @@ Added:
 Release 0.1 is a Foundation release.
 
 It does not provide a stable production implementation.
+
+<!-- RELEASE-0.2-CHANGELOG:START -->
+## [0.2.0-core-specification]
+
+### Added
+
+- formal SIS foundation;
+- formal SIM foundation;
+- identifiers, units and coordinate references;
+- Building, Floor, Space, Room, Wall, Opening and Furniture models;
+- Command, Result and Error contracts;
+- machine-readable JSON Schemas;
+- compliance profiles and test cases;
+- synthetic model example.
+
+### Status
+
+Draft specification completed.
+
+No production reference implementation is included.
+<!-- RELEASE-0.2-CHANGELOG:END -->

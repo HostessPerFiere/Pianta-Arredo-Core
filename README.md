@@ -68,3 +68,15 @@ draft Service contracts, developer documentation, schemas and initial
 architecture rules.
 
 See `RELEASE-0.1-NOTES.md` for the complete release summary.
+
+<!-- RELEASE-0.2-STATUS:START -->
+## Current specification status
+
+**Latest completed release:** 0.2 — Core Specification  
+**Specification maturity:** Draft  
+**Production readiness:** Not yet production-ready
+
+Release 0.2 defines the first formal SIS and SIM foundation.
+
+See `RELEASE-0.2-NOTES.md`.
+<!-- RELEASE-0.2-STATUS:END -->
