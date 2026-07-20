@@ -105,3 +105,16 @@ deterministic validation rules and a Capability registry.
 
 See `RELEASE-0.4-NOTES.md`.
 <!-- RELEASE-0.4-STATUS:END -->
+
+<!-- RELEASE-0.5-STATUS:START -->
+## Project persistence status
+
+**Latest completed release:** 0.5 — Project Model and Persistence  
+**Persistence maturity:** Experimental  
+**Production readiness:** Not production-ready
+
+Release 0.5 introduces revision-aware in-memory and JSON
+persistence.
+
+See `RELEASE-0.5-NOTES.md`.
+<!-- RELEASE-0.5-STATUS:END -->

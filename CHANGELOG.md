@@ -99,3 +99,20 @@ Experimental reference architecture completed.
 
 Experimental Geometry and Validation Core completed.
 <!-- RELEASE-0.4-CHANGELOG:END -->
+
+<!-- RELEASE-0.5-CHANGELOG:START -->
+## [0.5.0-project-persistence]
+
+### Added
+
+- ProjectRecord with revision metadata;
+- ProjectRepositoryPort;
+- in-memory and JSON persistence Adapters;
+- ProjectService;
+- revision conflict handling;
+- persistence tests.
+
+### Status
+
+Experimental Project persistence completed.
+<!-- RELEASE-0.5-CHANGELOG:END -->

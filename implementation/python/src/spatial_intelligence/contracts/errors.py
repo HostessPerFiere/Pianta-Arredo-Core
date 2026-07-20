@@ -8,6 +8,7 @@ class ErrorCode(StrEnum):
     INVALID_REQUEST = "InvalidRequest"
     ENTITY_NOT_FOUND = "EntityNotFound"
     VALIDATION_FAILED = "ValidationFailed"
+    REVISION_CONFLICT = "RevisionConflict"
     CAPABILITY_NOT_SUPPORTED = "CapabilityNotSupported"
     INTERNAL_FAILURE = "InternalFailure"
 

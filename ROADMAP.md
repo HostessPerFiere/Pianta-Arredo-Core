@@ -118,3 +118,19 @@ Added:
 - Capability registry;
 - expanded automated tests.
 <!-- RELEASE-0.4-STATUS:END -->
+
+<!-- RELEASE-0.5-STATUS:START -->
+## Release 0.5 — Project Model and Persistence
+
+Status: Completed
+
+Added:
+
+- revision-aware Project records;
+- Project Repository Port;
+- in-memory persistence;
+- JSON file persistence;
+- save and load Service;
+- revision conflict handling;
+- persistence tests.
+<!-- RELEASE-0.5-STATUS:END -->
