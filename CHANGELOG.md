@@ -140,3 +140,9 @@ Status: Completed
 
 Status: Completed
 <!-- RELEASE-0-9-0-CHANGELOG:END -->
+
+<!-- RELEASE-1-0-0-CHANGELOG:START -->
+## [1.0.0] — Stable Foundation
+
+Status: Completed
+<!-- RELEASE-1-0-0-CHANGELOG:END -->

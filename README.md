@@ -158,3 +158,13 @@ See `RELEASE-0.8-NOTES.md`.
 
 See `RELEASE-0.9-NOTES.md`.
 <!-- RELEASE-0-9-0-STATUS:END -->
+
+<!-- RELEASE-1-0-0-STATUS:START -->
+## Release 1.0.0 status
+
+**Release:** Stable Foundation  
+**Status:** Completed  
+**Package version:** `1.0.0`
+
+See `RELEASE-1.0-NOTES.md`.
+<!-- RELEASE-1-0-0-STATUS:END -->

@@ -158,3 +158,9 @@ Status: Completed
 
 Status: Completed
 <!-- RELEASE-0-9-0-ROADMAP:END -->
+
+<!-- RELEASE-1-0-0-ROADMAP:START -->
+## Release 1.0.0 — Stable Foundation
+
+Status: Completed
+<!-- RELEASE-1-0-0-ROADMAP:END -->
