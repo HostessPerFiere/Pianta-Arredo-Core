@@ -128,3 +128,9 @@ Status: Completed
 
 Status: Completed
 <!-- RELEASE-0-7-0-CHANGELOG:END -->
+
+<!-- RELEASE-0-8-0-CHANGELOG:START -->
+## [0.8.0] — Events and Plugins
+
+Status: Completed
+<!-- RELEASE-0-8-0-CHANGELOG:END -->

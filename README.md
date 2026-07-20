@@ -138,3 +138,13 @@ See `RELEASE-0.6-NOTES.md`.
 
 See `RELEASE-0.7-NOTES.md`.
 <!-- RELEASE-0-7-0-STATUS:END -->
+
+<!-- RELEASE-0-8-0-STATUS:START -->
+## Release 0.8.0 status
+
+**Release:** Events and Plugins  
+**Status:** Completed  
+**Package version:** `0.8.0`
+
+See `RELEASE-0.8-NOTES.md`.
+<!-- RELEASE-0-8-0-STATUS:END -->

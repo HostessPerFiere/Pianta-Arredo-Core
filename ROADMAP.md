@@ -146,3 +146,9 @@ Status: Completed
 
 Status: Completed
 <!-- RELEASE-0-7-0-ROADMAP:END -->
+
+<!-- RELEASE-0-8-0-ROADMAP:START -->
+## Release 0.8.0 — Events and Plugins
+
+Status: Completed
+<!-- RELEASE-0-8-0-ROADMAP:END -->
