@@ -1,0 +1,3 @@
+# Assets
+
+Public project assets.

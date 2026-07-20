@@ -1,0 +1,83 @@
+name: Foundation Check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-foundation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required root files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            README.md
+            ROADMAP.md
+            CHANGELOG.md
+            PROJECT_PRINCIPLES.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
+            GOVERNANCE.md
+            SUPPORT.md
+            LICENSE
+            .editorconfig
+            .gitattributes
+            .gitignore
+          )
+
+          for file in "${required_files[@]}"; do
+            test -f "$file" || {
+              echo "Missing required file: $file"
+              exit 1
+            }
+          done
+
+      - name: Verify required directories
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_directories=(
+            docs
+            architecture
+            specification
+            contracts
+            implementation
+            knowledge
+            compliance
+            rfc
+            design
+            decisions
+            models
+            diagrams
+            api
+            schemas
+            examples
+            samples
+            showcase
+            developer
+            playground
+            benchmark
+            tests
+            tools
+            assets
+            scripts
+          )
+
+          for directory in "${required_directories[@]}"; do
+            test -d "$directory" || {
+              echo "Missing required directory: $directory"
+              exit 1
+            }
+          done
